@@ -6,7 +6,7 @@ let stilListeZadataka = listaZadataka.style.listStyleType; //vraca string - nazi
 let br = parseInt(localStorage.getItem('brojac')) || 1;
 
 function Dodaj_Zadatak() {
-    let promptUnetZadatak = prompt("Unesite novi zadatak"); //prompt vraca samo STRING!!!
+    let promptUnetZadatak = prompt("Write your new assignment"); //prompt vraca samo STRING!!!
 
     if (promptUnetZadatak !== null && promptUnetZadatak.trim() !== "") { //da li nista nije uneto (trim.() zbog razmaka) i da li je kliknuto Cancel (null)
         let datum;
