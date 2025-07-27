@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="HeaderCont" class="cont">
+
+            <a href="#"><img class="Logo" src="Pictures/Logo.png" alt="Site logo"></a>
+
+            <div id="HeaderNav">
+                <a href="#" class="HeaderNavLink">Home</a>
+                <a href="#" class="HeaderNavLink">Contact</a>
+                <a href="#" class="HeaderNavLink">About us</a>
+                <a href="#" class="HeaderNavLink">More...</a>
+            </div>
+
+            <div id="LoginSignUp">
+                <a href="#" id="Login" class="LoginSignUpLink">Login</a>
+                <a href="#" id="SignUp" class="LoginSignUpLink">Sign Up</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="preHeader">
+        <!-- Sekcija koja sprecava Header da ide preko sekcije Citat -->
+    </section>
+
+    <section id="SecCitat">
+        <div class="CitatCont">
+            <p class="Citat">"You don't have to finish everything today, but you must know what awaits you tomorrow."
+            </p>
+            <p class="Overlord">~To-do list Overlord~</p>
+        </div>
+    </section>
+
+    <main>
+        <div id="MainCont" class="cont">
+            <h1 id="ToDoListNaslov">
+                TO-DO LIST
+            </h1>
+
+            <div id="btnILista">
+                <button id="BtnBiranje" onclick="Biranje_Stila()">1.</button>
+
+                <div id="ToDoLista">
+                    <ul id="zadaci">
+                        <!-- <li class="zadatak">Zadatak1 <button class="Ukloni">Discard</button></li>
+                        <li class="zadatak">Zadatak2 <button class="Ukloni">Discard</button></li>
+                        <li class="zadatak">Zadatak3 <button class="Ukloni">Discard</button></li> -->
+                    </ul>
+                    <button id="btnDodaj" onclick="Dodaj_Zadatak()">+</button>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </main>
+
+    <section id="SecDrugiCitat">
+        <div class="CitatCont">
+            <p class="Citat">"Every task you finish is a win. Go get the next one!"</p>
+            <p class="Overlord">~To-do list Motivator~</p>
+        </div>
+    </section>
+
+    <footer>
+        <div id="FooterCont" class="cont">
+
+            <a href="#"><img class="Logo" src="Pictures/Logo.png" alt="Site logo"></a>
+
+            <div id="FooterLinkovi">
+                <a href="#" class="HeaderNavLink">Contact</a>
+                <a href="#" class="HeaderNavLink">About us</a>
+                <a href="#" class="HeaderNavLink">More...</a>
+            </div>
+
+            <div id="FooterSocials">
+                <a href="#"><img src="Pictures/instagram.png" alt="Instagram" class="SocialMedia"></a>
+                <a href="#"><img src="Pictures/tik-tok.png" alt="TikTok" class="SocialMedia"></a>
+                <a href="#"><img src="Pictures/twitter.png" alt="Twitter/X" class="SocialMedia"></a>
+
+            </div>
+
+        </div>
+
+        <p id="FooterTekst">Dimitrije Stamenković|©|2025</p>
+
+    </footer>
+
+    <script src="JavaScript.js"></script>
+
+</body>
+
+</html>

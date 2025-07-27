@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCDCDB;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+/* HEADER */
+
+#preHeader {
+    height: 7.5vh;
+}
+
+header {
+    background-color: #135E4B;
+    height: 7.5vh;
+    width: 100%;
+    position: fixed;
+}
+
+.Logo {
+    height: 40px;
+}
+
+#HeaderCont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+#HeaderNav {
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    width: 50%;
+    align-items: center;
+}
+
+#LoginSignUp {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    width: 16%;
+    align-items: center;
+}
+
+.HeaderNavLink {
+    text-decoration: none;
+    color: #4CB572;
+}
+
+.HeaderNavLink:hover {
+    color: #388e58;
+    transition-duration: 0.7s;
+}
+
+.LoginSignUpLink {
+    text-decoration: none;
+}
+
+#Login {
+    color: #4CB572;
+}
+
+#Login:hover {
+    color: #388e58;
+    transition-duration: 0.7s;
+}
+
+#SignUp {
+    border: 2px solid #4CB572;
+    color: #135E4B;
+    background-color: #CCDCDB;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+#SignUp:hover {
+    border: 2px solid #388e58;
+    background-color: #afbab9;
+    transition-duration: 0.7s;
+}
+
+/* CITAT */
+
+#SecCitat {
+    background-color: #CCDCDB;
+    height: 28vh;
+    padding-top: 8vh;
+}
+
+.Citat {
+    text-align: center;
+    width: 25vw;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #135E4B;
+    margin-bottom: 0.8vh;
+}
+
+.Overlord {
+    text-align: right;
+    color: #135E4B;
+    font-size: 1.2em;
+}
+
+.CitatCont {
+    margin: 0 auto;
+    width: 25vw;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 4vh;
+    background-color: #CCDCDB;
+    min-height: 25vh;
+}
+
+#MainCont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+#ToDoListNaslov {
+    font-size: 3em;
+    color: #135E4B;
+}
+
+#BtnBiranje {
+    width: 1.3vw;
+    height: 2.4vh;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+    margin-bottom: 1.6vh;
+}
+
+#BtnBiranje:hover {
+    background-color: rgb(216, 215, 215);
+    transition-duration: 0.7s;
+}
+
+#ToDoLista {
+    border: 4px solid #A1D8B5;
+    border-radius: 0.6px;
+    height: min-content;
+    padding-bottom: 2vh;
+    width: 50vh;
+}
+
+#zadaci {
+    list-style-position: inside;
+    padding: 1vh 1vw;
+}
+
+.zadatak {
+    margin-bottom: 1.5vh;
+    font-size: 1.2em;
+    color: #135E4B;
+    
+    cursor: pointer;
+}
+
+#btnDodaj {
+    padding: 0.8vh;
+    margin-left: 0.5vw;
+    background-color: #c8c9c9;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+#btnDodaj:hover {
+    background-color: #abadad;
+    border: 1px solid rgb(160, 160, 160);
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.Ukloni {
+    padding: 0.4vh;
+    font-size: 0.8em;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Ukloni:hover {
+    background-color: rgb(176, 177, 178);
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.DatumInfo {
+    position: absolute;
+    background-color: #135E4B;
+    min-height: 3vh;
+    max-width: 6vw;
+    color: #CCDCDB;
+}
+
+/* DRUGI CITAT */
+
+#SecDrugiCitat {
+    background-color: #CCDCDB;
+    height: 24vh;
+    padding-top: 8vh;
+}
+
+/* FOOTER */
+
+footer {
+    height: 25vh;
+    background-color: #135E4B;
+    padding-top: 5vh;
+}
+
+#FooterCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+#FooterLinkovi {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+#FooterSocials {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6vh;
+}
+
+.SocialMedia {
+    height: 3vh;
+}
+
+#FooterTekst {
+    text-align: center;
+    margin-top: 2.2vh;
+    color: rgba(76, 181, 114, 0.6);
+    font-size: 0.9em;
+}
